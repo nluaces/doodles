@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+
+    <title>Tutorial</title>
+
+    <style>
+         html { height: 100%; }
+
+        body {
+          min-height: 100%;
+          margin: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: white;
+          font-family: sans-serif;
+          text-align: center;
+        }
+
+        canvas {
+          display: block;
+          margin: 0px auto 20px;
+          cursor: move;
+        }
+
+        a { color: white; }
+        a:hover { color: #606; }
+
+        button {
+          background: #848;
+          color: white;
+          font-size: 14px;
+          font-family: inherit;
+          border: none;
+          border-radius: 3px;
+          padding: 8px 10px;
+        }
+
+        button:hover {
+          background: 'white';
+          cursor: pointer;
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="container">
+    <canvas class="illo"></canvas>
+</div>
+<script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
+<script src="character.js"></script>
+
+</body>
+</html>
