@@ -47,5 +47,3 @@ function animate() {
   requestAnimationFrame( animate );
 }
 animate();
-// start animation
-animate();
